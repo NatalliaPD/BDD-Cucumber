@@ -1,0 +1,206 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4311756100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.beforeRun()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3697695000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.beforeRun()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "user should be able to open a new account",
+        "description": "",
+        "id": "techfios-bank-\u0026-cash-new-account-functionality;user-should-be-able-to-open-a-new-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 685912800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterRun()"
+            }
+          },
+          {
+            "result": {
+              "duration": 699684700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1600571300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user already logged in as \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 27
+                },
+                {
+                  "val": "abc123",
+                  "offset": 51
+                }
+              ],
+              "location": "StepImplementation.user_already_logged_in_as_something_and_something(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 794162800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is able to see Dashboard",
+            "match": {
+              "location": "StepImplementation.user_is_be_able_to_see_dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97251400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to Bank and Cash",
+            "match": {
+              "location": "StepImplementation.user_navigates_to_bank_and_cash()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 625427600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on New Account",
+            "match": {
+              "location": "StepImplementation.user_clicks_on_new_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 401687000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user completes the form entering \"Account receivable\"and\"business\"and\"\u003cinitialBalance\u003e\"and\"1000000000\"and\"\"and\"987654321\"and\"Natallia D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account receivable",
+                  "offset": 34
+                },
+                {
+                  "val": "business",
+                  "offset": 57
+                },
+                {
+                  "val": "\u003cinitialBalance\u003e",
+                  "offset": 70
+                },
+                {
+                  "val": "1000000000",
+                  "offset": 91
+                },
+                {
+                  "val": "",
+                  "offset": 106
+                },
+                {
+                  "val": "987654321",
+                  "offset": 111
+                },
+                {
+                  "val": "Natallia D",
+                  "offset": 125
+                }
+              ],
+              "location": "StepImplementation.user_completes_the_form_entering_and_and_and_and_and_and_and_clicks_on_submit(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3351305500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "StepImplementation.user_clicks_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2368635700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "created account should be posted",
+            "match": {
+              "location": "StepImplementation.created_account_should_be_posted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@AddNewAccount"
+          }
+        ]
+      }
+    ],
+    "name": "techfios Bank \u0026 Cash New Account functionality",
+    "description": "",
+    "id": "techfios-bank-\u0026-cash-new-account-functionality",
+    "keyword": "Feature",
+    "uri": "features/NewAccount.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AddNewAccount"
+      }
+    ]
+  }
+]
